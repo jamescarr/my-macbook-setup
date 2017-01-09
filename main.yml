@@ -1,0 +1,14 @@
+---
+- hosts: localhost
+  connection: local
+  vars_files:
+     - vars/homebrew.yaml
+  roles:
+    - role: geerlingguy.homebrew
+  tasks:
+    - name: install pip things
+      pip:
+        name: "{{ item }}"
+      with_items:
+        - awscli
+        - virtualenvwrapper

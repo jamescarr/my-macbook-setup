@@ -1,0 +1,39 @@
+homebrew_taps:
+  - caskroom/cask
+
+homebrew_installed_packages:
+  - ag
+  - tmux
+  - macvim
+  - python
+  - tree
+  - terraform
+  - packer
+  - nvm
+  - docker-compose
+  - kubectl
+  - mysql
+  - libxml2
+  - libxslt
+  - git-extras
+  - golang
+  - elixir
+  - unixodbc
+
+homebrew_cask_apps:
+  - spotify
+  - vagrant
+  - docker
+  - pycharm
+  - slack
+  - thunderbird
+  - iterm2
+  - viscosity
+  - istat-menus
+  - zoom.us
+  - steam
+  - evernote
+  - screenhero
+  - quip
+  - colloquy
+
